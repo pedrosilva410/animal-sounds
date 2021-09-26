@@ -20,6 +20,16 @@ const Header = () => {
       </li>
       <li>
         <NavLink
+          exact
+          className="nav_item"
+          activeClassName="nav_item_selected"
+          to="/animals"
+        >
+          Animals
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
           className="nav_item"
           activeClassName="nav_item_selected"
           to="/about"
